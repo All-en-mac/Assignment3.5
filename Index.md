@@ -1,8 +1,5 @@
-To make this project clean and modular, we will build a professional two-page portfolio and blog website (index.html for the home portfolio and blog.html for the blog posts), fully equipped with semantic tags, working internal/external links, images, lists, and a footer contact section.
 
 Step 1: Project Folder Structure
-Ensure your workspace is organized like this:
-
 Plaintext
 web-development-practice/
 │
@@ -20,13 +17,13 @@ HTML
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alex Johnson — Portfolio Home</title>
+    <title>Allen Macanige — Portfolio Home</title>
 </head>
 <body>
 
     <!-- Header with Name / Logo -->
     <header>
-        <h1>Alex Johnson</h1>
+        <h1>Allen Macanige</h1>
         <p>Aspiring Full-Stack Web Developer</p>
         
         <!-- Navigation Bar -->
@@ -52,8 +49,8 @@ HTML
             <p>Hello! Welcome to my personal portfolio website. I am passionate about learning modern web development, writing clean semantic code, and building user-friendly applications.</p>
             
             <figure>
-                <img src="images/profile.jpg" alt="Portrait photo of Alex Johnson" width="250" height="200">
-                <figcaption>Alex Johnson — Web Development Student</figcaption>
+                <img src="images/profile.jpg" alt="Portrait photo of Allen Macanige" width="250" height="200">
+                <figcaption>Allen Macanige — Web Development Student</figcaption>
             </figure>
         </section>
 
@@ -102,30 +99,29 @@ HTML
         <h2>Contact Information</h2>
         <p>Feel free to connect with me:</p>
         <ul>
-            <li>Email: <a href="mailto:alex.johnson@example.com">alex.johnson@example.com</a></li>
-            <li>GitHub Profile: <a href="https://github.com" target="_blank" rel="noopener noreferrer">github.com/alexjohnson</a></li>
+            <li>Email: <a href="mailto:allenmacanige@gmail.com">allenmacanige@gmail.com</a></li>
+            <li>GitHub Profile: <a href="https://github.com" target="_blank" rel="noopener noreferrer">github.com/allenmacanige</a></li>
         </ul>
-        <p>&copy; 2026 Alex Johnson. All rights reserved.</p>
+        <p>&copy; 2026 Allen Macanige. All rights reserved.</p>
     </footer>
 
 </body>
 </html>
-Step 3: blog.html (Blog Posts Page)
-Create a new file named blog.html in your project folder with the following code:
 
+Step 3: blog.html (Blog Posts Page)
 HTML
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog — Alex Johnson</title>
+    <title>Blog — Allen Macanige</title>
 </head>
 <body>
 
     <!-- Header with Name / Logo -->
     <header>
-        <h1>Alex's Tech Blog</h1>
+        <h1>Allen's Tech Blog</h1>
         <p>Thoughts on learning code, web standards, and developer workflows.</p>
         
         <!-- Navigation Bar -->
@@ -162,15 +158,14 @@ HTML
 
     <!-- Footer -->
     <footer>
-        <p>Connect via email: <a href="mailto:alex.johnson@example.com">alex.johnson@example.com</a></p>
-        <p>&copy; 2026 Alex Johnson.</p>
+        <p>Connect via email: <a href="mailto:allenmacanige@gmail.com">allenmacanige@gmail.com</a></p>
+        <p>&copy; 2026 Allen Macanige.</p>
     </footer>
 
 </body>
 </html>
-Step 4: Git Commit & Push Instructions
-To wrap up your project and push it to your GitHub repository for final submission, run these terminal commands:
 
+Step 4: Git Commit & Push Instructions
 Bash
 # Check status of files
 git status
@@ -183,11 +178,3 @@ git commit -m "feat: complete blog and portfolio mini-project (Assignment 3.5)"
 
 # Push your changes to GitHub
 git push origin main
-Submission Checklist
-Source Code: Ensure both index.html and blog.html are saved and properly indented in your workspace.
-
-Assets: Verify your images folder contains your profile picture and project graphic.
-
-Local Testing: Open index.html via Live Server to verify that navigation links between Home and Blog work seamlessly, images load properly, and external links open securely.
-
-GitHub Link: Submit your public GitHub repository URL (e.g., [https://github.com/YOUR-USERNAME/web-development-practice](https://github.com/YOUR-USERNAME/web-development-practice)) to complete your mini-project assignment!
